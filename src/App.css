@@ -1,5 +1,11 @@
+
 .App {
   text-align: center;
+}
+.flex-container {
+  display: flex;
+  flex: 1;
+  /* Add other Flexbox properties as needed */
 }
 
 .App-logo {
@@ -35,4 +41,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+
+.jumbotron {
+  padding: 10rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  text-align: center;
+}
+
+
+
+
+.body, .html {
+  font-family: 'Arvo', serif;
+  /* -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; */
 }
